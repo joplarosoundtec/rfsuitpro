@@ -5,7 +5,7 @@
 </p>
 
 **Versión:** 0.1.0 Alpha  
-**Fecha:** Enero 2025  
+**Fecha:** Noviembre 2025  
 
 ---
 
