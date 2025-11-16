@@ -1,139 +1,140 @@
-═══════════════════════════════════════════════════════════════════════════
-RFSuit Pro v0.1.0 Alpha - Professional RF Spectrum Analyzer
-═══════════════════════════════════════════════════════════════════════════
+# RFSuit Pro v0.1.0 Alpha – RF Spectrum Analyzer
 
-VERSION: 0.1.0 Alpha (Build for Testing)
-DATE: January 2025
+**Version:** 0.1.0 Alpha  
+**Date:** January 2025  
 © 2025 Joplaro Sound Tech. All rights reserved.
 
-═══════════════════════════════════════════════════════════════════════════
-DESCRIPTION
-═══════════════════════════════════════════════════════════════════════════
+---
 
-RFSuit Pro is a professional RF spectrum analyzer designed to work with RF Explorer and TinySA devices. It provides real‑time visualization, advanced analysis, and interference detection.
+## 📝 Description
 
-═══════════════════════════════════════════════════════════════════════════
-SYSTEM REQUIREMENTS
-═══════════════════════════════════════════════════════════════════════════
+**RFSuit Pro** is a professional RF spectrum analyzer designed to work with **RF Explorer** and **TinySA** devices.  
+It provides real-time visualization, advanced signal analysis, and interference detection tools.
 
-Windows 10/11 (64-bit)
-.NET Framework 4.8 or higher
-Available USB port
-RF Explorer or TinySA device
+---
 
-═══════════════════════════════════════════════════════════════════════════
-INSTALLATION
-═══════════════════════════════════════════════════════════════════════════
+## 💻 System Requirements
 
-Extract all files to a folder of your choice
-Make sure all files are in the same folder:
-RFAnalyzerPro.exe (main executable)
-RFAnalyzerPro.exe.config (configuration file)
-System.IO.Ports.dll (serial communication library)
-RFSuit.ico (application icon)
-RFSuit.png (application image)
+- Windows 10/11 (64-bit)  
+- .NET Framework 4.8 or higher  
+- Available USB port  
+- RF Explorer or TinySA device  
 
-3. Run RFAnalyzerPro.exe
+---
 
-═══════════════════════════════════════════════════════════════════════════
-BASIC USAGE
-═══════════════════════════════════════════════════════════════════════════
+## 📦 Installation
 
-CONNECT DEVICE:
-Connect your RF Explorer or TinySA to the USB port
-Go to Menu → Devices → Connect RF Explorer/TinySA
-Select the correct COM port
+1. Extract all files to a folder of your choice.  
+2. Ensure the following files remain in the same directory:
 
-2. CONFIGURE SWEEP:
-Start Frequency: Initial frequency in MHz
-End Frequency: Final frequency in MHz
-Resolution: Automatic
-Manually enable TinySA HIGH mode for scans at high frequencies.
+   - `RFAnalyzerPro.exe`  
+   - `RFAnalyzerPro.exe.config`  
+   - `System.IO.Ports.dll`  
+   - `RFSuit.ico`  
+   - `RFSuit.png`
 
-3. START ANALYSIS:
-Press "▶ START SWEEP"
-The spectrum and waterfall will update in real time
+3. Run **RFAnalyzerPro.exe**.
 
-4. MARKERS:
-Right‑click on the chart: Add marker
-Left‑click and drag: Move marker
-Middle click: Delete marker
-Maximum 10 markers
+---
 
-5. ADVANCED TOOLS:
-Interference Detector: Analyzes and classifies signals
-Frequency Coordination: Finds free channels
-Spectrum Analysis: Detailed statistics
+## 🚀 Basic Usage
 
-═══════════════════════════════════════════════════════════════════════════
-MAIN FEATURES
-═══════════════════════════════════════════════════════════════════════════
+### 1. Connect Device
+- Connect your RF Explorer or TinySA via USB.  
+- Go to: Menu → *Devices* → *Connect RF Explorer/TinySA*.  
+- Select the correct COM port.
 
-✓ Support for RF Explorer and TinySA
-✓ Real‑time visualization (spectrum + waterfall)
-✓ Up to 10 simultaneous markers with power measurement
-✓ Professional interference detector
-✓ Frequency coordination to find free channels
-✓ Advanced statistical analysis
-✓ Export to CSV and PNG images
-✓ Monitored frequencies with alerts
-✓ Configurable MaxHold and Average
-✓ Professional dark interface
+### 2. Configure Sweep
+- **Start Frequency:** Initial frequency in MHz  
+- **End Frequency:** Final frequency in MHz  
+- **Resolution:** Automatic  
+- For TinySA: manually enable **HIGH mode** for high-frequency scans.
 
-═══════════════════════════════════════════════════════════════════════════
-ALPHA VERSION NOTES
-═══════════════════════════════════════════════════════════════════════════
+### 3. Start Analysis
+- Click **▶ START SWEEP**.  
+- The spectrum and waterfall begin updating in real time.
 
-This is an ALPHA version for testing. It may contain bugs and features under development. Please report any issues found to joplarosoundtec@gmail.com.
+### 4. Markers
+- Right-click: **Add marker**  
+- Left-click + drag: **Move marker**  
+- Middle click: **Delete marker**  
+- Up to **10 markers supported**.
 
-TESTED FEATURES:
-✓ Communication with RF Explorer
-✓ Communication with TinySA
-✓ Real‑time spectrum visualization
-✓ Continuous waterfall
-✓ Markers and measurements
-✓ Interference detector
-✓ Data export
+### 5. Advanced Tools
+- Interference Detector  
+- Frequency Coordination (free channel scanning)  
+- Detailed Spectrum Analysis  
 
-KNOWN LIMITATIONS:
-The waterfall resets when switching devices
-Some RF Explorer models may require manual adjustments
-Sweep time synchronization may vary by model
+---
 
-═══════════════════════════════════════════════════════════════════════════
-COMPATIBLE DEVICES
-═══════════════════════════════════════════════════════════════════════════
+## ⭐ Main Features
 
-RF EXPLORER:
-RF Explorer 3G Combo
-RF Explorer 6G
-RF Explorer ISM Combo
-Other models with standard serial communication
+- ✔ RF Explorer & TinySA support  
+- ✔ Real-time spectrum + waterfall  
+- ✔ Up to 10 markers with power readings  
+- ✔ Professional interference detection  
+- ✔ Free-channel coordination  
+- ✔ Statistical spectrum analysis  
+- ✔ Export to **CSV** & **PNG**  
+- ✔ Frequency monitoring with alerts  
+- ✔ MaxHold & Average modes  
+- ✔ Professional dark UI  
 
-TINYSA:
-TinySA Ultra (up to 5.3 GHz)
-TinySA Basic (up to 960 MHz)
+---
 
-═══════════════════════════════════════════════════════════════════════════
-SUPPORT AND CONTACT
-═══════════════════════════════════════════════════════════════════════════
+## 🧪 Alpha Version Notes
 
-To report bugs, suggestions, or inquiries during the testing phase, contact the development team.
+This is an **Alpha version**. It may contain bugs or incomplete features.  
+Please report issues to **joplarosoundtec@gmail.com**.
 
-Web: https://joplarosoundtech.com
-Email: joplarosoundtec@gmail.com
+### ✔ Tested Features
+- RF Explorer communication  
+- TinySA communication  
+- Real-time spectrum  
+- Continuous waterfall  
+- Markers and measurements  
+- Interference detector  
+- Data export  
 
-═══════════════════════════════════════════════════════════════════════════
-LICENSE
-═══════════════════════════════════════════════════════════════════════════
+### ⚠ Known Limitations
+- Waterfall resets when switching devices  
+- Some RF Explorer models need manual adjustments  
+- Sweep time may vary depending on the device  
 
-RF Suit Pro © 2025 by Jose Pla Romero is licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International.
-To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/4.0/
+---
 
-This is a test (Alpha) version and is not intended for commercial use.
-The software is provided “as is” without any warranties.
+## 📡 Compatible Devices
 
-═══════════════════════════════════════════════════════════════════════════
+### RF Explorer
+- RF Explorer 3G Combo  
+- RF Explorer 6G  
+- RF Explorer ISM Combo  
+- Other serial-compatible models
 
-Thank you for testing RFSuit Pro Alpha!
+### TinySA
+- TinySA Ultra (up to 5.3 GHz)  
+- TinySA Basic (up to 960 MHz)  
 
+---
+
+## 📞 Support & Contact
+
+For bug reports, suggestions, or inquiries:
+
+- **Website:** https://joplarosoundtech.com  
+- **Email:** joplarosoundtec@gmail.com  
+
+---
+
+## 📄 License
+
+**RFSuit Pro © 2025 – Jose Pla Romero**  
+Licensed under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International** license.  
+Learn more: https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+> This Alpha build is for testing only.  
+> Software is provided “as is”, without warranties.
+
+---
+
+Thank you for testing **RFSuit Pro Alpha**! 🚀📡
