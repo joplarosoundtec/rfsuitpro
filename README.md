@@ -4,7 +4,7 @@
   <img src="https://joplarosoundtech.com/wp-content/uploads/2025/11/rfsuitpro.webp" alt="RFSuit Pro logo" width="400"/>
 </p>
 
-**Versión:** 0.1.0 Alpha  
+**Versión:** 0.1.4-alpha  
 **Fecha:** Noviembre 2025  
 
 ---
@@ -99,10 +99,11 @@ Por favor reporta cualquier problema a **joplarosoundtec@gmail.com**.
 - Detector de interferencias  
 - Exportación de datos  
 
-### ⚠ Limitaciones Conocidas
-- El waterfall se reinicia al cambiar de dispositivo  
-- Algunos modelos de RF Explorer requieren ajustes manuales  
-- El tiempo de barrido puede variar según el modelo  
+### ⚠ Bugs Revisados
+- v0.1.4alpha :
+ +  Referencia no se reescala al cambiar ancho de banda
+ +  Herramientas no resetean al limpiar barrido o cambiar rango
+ +  Persistencia de datos de medición anterior
 
 ---
 
