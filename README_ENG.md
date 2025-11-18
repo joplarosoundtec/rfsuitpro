@@ -1,11 +1,11 @@
-# RFSuit Pro v0.1.0 Alpha – RF Spectrum Analyzer
+# RFSuit Pro v0.1.4-alpha – RF Spectrum Analyzer
 
 <p align="center">
   <img src="https://joplarosoundtech.com/wp-content/uploads/2025/11/rfsuitpro.webp" alt="RFSuit Pro logo" width="400"/>
 </p>
 
 
-**Version:** 0.1.0 Alpha  
+**Version:** 0.1.4-alpha  
 **Date:** November 2025  
 
 ---
@@ -100,11 +100,15 @@ Please report issues to **joplarosoundtec@gmail.com**.
 - Interference detector  
 - Data export  
 
-### ⚠ Known Limitations
-- Waterfall resets when switching devices  
-- Some RF Explorer models need manual adjustments  
-- Sweep time may vary depending on the device  
+### ⚠ Bugs Fixed
 
+-v0.1.4alpha:
+
+Reference does not rescale when changing bandwidth
+
+Tools do not reset when clearing a sweep or changing the range
+
+Previous measurement data persists
 ---
 
 ## 📡 Compatible Devices
