@@ -1,12 +1,12 @@
-# RFSuit Pro v0.1.4-alpha – RF Spectrum Analyzer
+# RFSuit Pro v0.1.5-alpha – RF Spectrum Analyzer
 
 <p align="center">
   <img src="https://joplarosoundtech.com/wp-content/uploads/2025/11/rfsuitpro.webp" alt="RFSuit Pro logo" width="400"/>
 </p>
 
 
-**Version:** 0.1.4-alpha  
-**Date:** November 2025  
+**Version:** 0.1.5-alpha  
+**Date:** 19 November 2025  
 
 ---
 
@@ -32,7 +32,8 @@ It provides real-time visualization, advanced signal analysis, and interference 
 2. Ensure the following files remain in the same directory:
 
    - `RFAnalyzerPro.exe`  
-   - `RFAnalyzerPro.exe.config`  
+   - `RFAnalyzerPro.exe.config` 
+   - `System.IO.Ports.xml` 
    - `System.IO.Ports.dll`  
    - `RFSuit.ico`  
    - `RFSuit.png`
@@ -102,13 +103,19 @@ Please report issues to **joplarosoundtec@gmail.com**.
 
 ### ⚠ Bugs Fixed
 
+- v0.1.5-alpha:
+	+ Spacing between graphs and control panel
+	+ IMPROVEMENT: Manual dBm scaling
+	+ IMPROVEMENT: Logo moved outside the graph area (no overlap)
+	+ Splash screen icon and logo now load correctly
+	+ Increased top margin of the graph for better viewing
+
+
 -v0.1.4alpha:
+	+Reference does not rescale when changing bandwidth
+	+Tools do not reset when clearing a sweep or changing the range
+	+Previous measurement data persists
 
-Reference does not rescale when changing bandwidth
-
-Tools do not reset when clearing a sweep or changing the range
-
-Previous measurement data persists
 ---
 
 ## 📡 Compatible Devices
