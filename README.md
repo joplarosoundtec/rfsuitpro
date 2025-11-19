@@ -1,11 +1,11 @@
-# RFSuit Pro v0.1.4 Alpha – Analizador de Espectro RF
+# RFSuit Pro v0.1.5 Alpha – Analizador de Espectro RF
  
 <p align="center">
   <img src="https://joplarosoundtech.com/wp-content/uploads/2025/11/rfsuitpro.webp" alt="RFSuit Pro logo" width="400"/>
 </p>
 
-**Versión:** 0.1.4-alpha  
-**Fecha:** Noviembre 2025  
+**Versión:** 0.1.5-alpha  
+**Fecha:** 19 Noviembre 2025  
 
 ---
 
@@ -32,7 +32,8 @@ Proporciona visualización en tiempo real, análisis avanzado de señales y herr
 
    - `RFAnalyzerPro.exe`  
    - `RFAnalyzerPro.exe.config`  
-   - `System.IO.Ports.dll`  
+   - `System.IO.Ports.dll` 
+   - `System.IO.Ports.xml` 
    - `RFSuit.ico`  
    - `RFSuit.png`
 
@@ -100,10 +101,19 @@ Por favor reporta cualquier problema a **joplarosoundtec@gmail.com**.
 - Exportación de datos  
 
 ### ⚠ Bugs Revisados
-- v0.1.4alpha :
- +  Referencia no se reescala al cambiar ancho de banda
- +  Herramientas no resetean al limpiar barrido o cambiar rango
- +  Persistencia de datos de medición anterior
+
+- v0.1.5-alpha:
+	+ Espaciado entre gráficas y panel de controles
+	+ MEJORA: Escala manual de dBm
+	+ MEJORA: Logo movido fuera del área del gráfico (no se solapa)
+	+ Icono y logo de splash screen ahora se cargan correctamente
+	+ Aumentado margen superior del gráfico para mejor visualización
+
+
+- v0.1.4-alpha :
+	+  Referencia no se reescala al cambiar ancho de banda
+	+  Herramientas no resetean al limpiar barrido o cambiar rango
+	+  Persistencia de datos de medición anterior
 
 ---
 
