@@ -33,7 +33,6 @@ It provides real-time visualization, advanced signal analysis, and interference 
 
    - `RFAnalyzerPro.exe`  
    - `RFAnalyzerPro.exe.config` 
-   - `System.IO.Ports.xml` 
    - `System.IO.Ports.dll`  
    - `RFSuit.ico`  
    - `RFSuit.png`
