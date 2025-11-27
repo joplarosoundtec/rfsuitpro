@@ -1,12 +1,12 @@
-# RFSuit Pro v0.1.5-alpha – RF Spectrum Analyzer
+# RFSuit Pro v0.1.6-alpha – RF Spectrum Analyzer
 
 <p align="center">
   <img src="https://joplarosoundtech.com/wp-content/uploads/2025/11/rfsuitpro.webp" alt="RFSuit Pro logo" width="400"/>
 </p>
 
 
-**Version:** 0.1.5-alpha  
-**Date:** 19 November 2025  
+**Version:** 0.1.6-alpha  
+**Date:** 27 November 2025  
 
 ---
 
@@ -102,6 +102,13 @@ Please report issues to **joplarosoundtec@gmail.com**.
 - Data export  
 
 ### ⚠ Bugs Fixed
+
+- v0.1.6-alpha:
+	+ Implemented automatic horizontal scrolling for extreme resolutions
+	+ Panel dynamically adapts to any screen size
+	+ Improved handling of vertical and ultrawide displays
+	+ Waterfall displays correctly at all resolutions
+
 
 - v0.1.5-alpha:
 	+ Spacing between graphs and control panel

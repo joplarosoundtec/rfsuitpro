@@ -1,11 +1,11 @@
-# RFSuit Pro v0.1.5 Alpha – Analizador de Espectro RF
+# RFSuit Pro v0.1.6 Alpha – Analizador de Espectro RF
  
 <p align="center">
   <img src="https://joplarosoundtech.com/wp-content/uploads/2025/11/rfsuitpro.webp" alt="RFSuit Pro logo" width="400"/>
 </p>
 
-**Versión:** 0.1.5-alpha  
-**Fecha:** 19 Noviembre 2025  
+**Versión:** 0.1.6-alpha  
+**Fecha:** 27 Noviembre 2025  
 
 ---
 
@@ -32,8 +32,7 @@ Proporciona visualización en tiempo real, análisis avanzado de señales y herr
 
    - `RFAnalyzerPro.exe`  
    - `RFAnalyzerPro.exe.config`  
-   - `System.IO.Ports.dll` 
-   - `System.IO.Ports.xml` 
+   - `System.IO.Ports.dll`  
    - `RFSuit.ico`  
    - `RFSuit.png`
 
@@ -101,6 +100,13 @@ Por favor reporta cualquier problema a **joplarosoundtec@gmail.com**.
 - Exportación de datos  
 
 ### ⚠ Bugs Revisados
+
+- v0.1.6-alpha:
+	+ Implementado scroll horizontal automático para resoluciones extremas
+  	+ Panel se adapta dinámicamente a cualquier tamaño de pantalla
+  	+ Mejor manejo de pantallas verticales y ultra-anchas
+  	+ Waterfall se muestra correctamente en todas las resoluciones
+
 
 - v0.1.5-alpha:
 	+ Espaciado entre gráficas y panel de controles
