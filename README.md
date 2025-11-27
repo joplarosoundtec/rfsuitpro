@@ -1,7 +1,7 @@
 # RFSuit Pro v0.1.6 Alpha – Analizador de Espectro RF
  
 <p align="center">
-  <img src="https://joplarosoundtech.com/wp-content/uploads/2025/11/rfsuitpro.webp" alt="RFSuit Pro logo" width="400"/>
+  <img src="https://joplarosoundtech.com/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-27-at-13.16.34.webp" alt="RFSuit Pro logo" width="400"/>
 </p>
 
 **Versión:** 0.1.6-alpha  
